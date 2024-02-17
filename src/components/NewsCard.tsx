@@ -10,7 +10,7 @@ interface Props {
 const NewsCard:FC<Props> = ({title, date, location}) => {
   return (
     <>
-      <div className="bg-cultured p-2 flex flex-row items-start gap-4">
+      <div className="bg-cultured p-2 flex flex-row items-center gap-4">
         <div className="bg-oxfordblue p-3 text-center w-16 h-16">
           <p className={`text-white text-xl font-bold ${gilda.className}`}>
             {date.split("-")[0]}

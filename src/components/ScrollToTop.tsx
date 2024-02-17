@@ -24,13 +24,8 @@ const ScrollToTop = () => {
 
   return (
     <>
-      {/* <ArrowUp
-        className="fixed bottom-10 right-10 bg-white rounded-full p-1 cursor-pointer"
-        size={42}
-        color="#06284b"
-      /> */}
       <div
-        className={`fixed bottom-10 right-10 bg-white rounded-full p-1 cursor-pointer ${
+        className={`fixed bottom-10 right-10 bg-white p-1 cursor-pointer ${
           showScroll ? "block" : "hidden"
         }`}
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}

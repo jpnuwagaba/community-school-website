@@ -15,7 +15,7 @@ const Footer = () => {
           height={300}
         />
       </div> */}
-      <div className="bg-tuftsblue">
+      <div className="bg-tuftsblue mt-24">
         <div className="container flex flex-col items-center py-8 md:py-12">
           <div className="flex flex-col md:flex-row items-center gap-4">
             <div

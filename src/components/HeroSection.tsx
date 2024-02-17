@@ -68,11 +68,11 @@ const HeroSection = () => {
                         </div>
                         <div>
                           <h1
-                            className={`text-3xl md:text-6xl font-bold ${gilda.className}`}
+                            className={`text-3xl md:text-6xl font-bold slide-in-top ${gilda.className}`}
                           >
                             {item.title}
                           </h1>
-                          <p className="text-lg mt-4">{item.description}</p>
+                          <p className="text-lg mt-4 slide-in-bottom">{item.description}</p>
                         </div>
                       </div>
                     </div>
@@ -87,7 +87,7 @@ const HeroSection = () => {
           <div className="grid grid-cols-3 divide-x">
             <div className="px-6 text-sm text-cultured font-bold">Apply</div>
             <div className="px-6 text-sm text-cultured font-bold">Visit</div>
-            <div className="px-6 text-sm text-cultured font-bold">Map</div>
+            <div className="px-6 text-sm text-cultured font-bold">Map</div>            
           </div>
         </div>
       </div>

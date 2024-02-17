@@ -11,12 +11,18 @@ interface Props {
   callToAction: string;
 }
 
-const CallToAction:FC<Props> = ({title, description, link, callToAction}) => {
+const CallToAction: FC<Props> = ({
+  title,
+  description,
+  link,
+  callToAction,
+}) => {
   return (
     <>
       <div className="container">
         <div className="py-8 md:py-16 bg-cultured px-6">
           <GridCols
+            itemsAlign="start"
             component1={
               <>
                 <div
@@ -28,9 +34,7 @@ const CallToAction:FC<Props> = ({title, description, link, callToAction}) => {
             }
             component2={
               <>
-                <div className="text-lg">
-                  {description}
-                </div>
+                <div className="text-lg">{description}</div>
                 <div className="mt-4 flex flex-row items-center gap-4">
                   <div className="border rounded-full p-1 border-gray-300">
                     <ArrowRight size={24} />

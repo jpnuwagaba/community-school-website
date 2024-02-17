@@ -4,6 +4,8 @@ import Testimonial from "@/components/Testimonial";
 import CoreValues from "@/components/CoreValues";
 import CallToAction from "@/components/CallToAction";
 import PageHeader from "@/components/PageHeader";
+import Administration from "@/components/Administration";
+import MissionAndVision from "@/components/MissionAndVision";
 
 const page = () => {
   return (
@@ -14,11 +16,13 @@ const page = () => {
           title="About Us"
           description="At Somename, those who come to study, research, teach, work, and develop themselves become part of a long tradition of learners and educators dedicated to seeking truth, expanding knowledge, and striving for a brighter future. Join us in our pursuit of excellence and positive change."
         />
+        <MissionAndVision />
         <CoreValues />
         <SchoolOverview />
-        <div className="mb-12">
+        <Administration />
+        {/* <div className="mb-12">
           <Testimonial />
-        </div>
+        </div> */}
         <CallToAction
           title="Read Our History"
           description="Learn more about our history and how we got started."

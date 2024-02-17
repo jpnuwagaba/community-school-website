@@ -44,9 +44,9 @@ const Navbar = () => {
               <Link className="font-bold ml-6" href={"parentsandguardians"}>
                 Parents & Guardians
               </Link>
-              <Link className="font-bold ml-6" href={"facultyandstaff"}>
+              {/* <Link className="font-bold ml-6" href={"facultyandstaff"}>
                 Faculty & Staff
-              </Link>
+              </Link> */}
               <Link className="font-bold ml-6" href={"contact"}>
                 Contact
               </Link>

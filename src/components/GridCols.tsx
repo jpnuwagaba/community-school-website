@@ -3,6 +3,7 @@ import React, { FC } from "react";
 interface Props {
   component1: React.ReactNode;
   component2: React.ReactNode;
+  itemsAlign?: "start" | "center" | "end";
 }
 
 const GridCols: FC<Props> = ({ component1, component2 }) => {
